@@ -1,9 +1,322 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.2.1">
   <diagram name="Page-1" id="lVKIcCnujJujS-in8IVZ">
-    <mxGraphModel>
+    <mxGraphModel dx="2560" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;" value="Пользователь" vertex="1">
+          <mxGeometry height="2806" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Система" vertex="1">
+          <mxGeometry height="2806" width="150" x="518" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Платежный шлюз" vertex="1">
+          <mxGeometry height="2806" width="150" x="831" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="База данных" vertex="1">
+          <mxGeometry height="2806" width="150" x="1031" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-5" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="478" width="1033" x="84" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-6" parent="tf2u9ZjNu3vSYJgPu2OB-5" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Курс доступен]" vertex="1">
+          <mxGeometry height="20" width="1003" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-7" parent="tf2u9ZjNu3vSYJgPu2OB-5" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Курс недоступен]" vertex="1">
+          <mxGeometry height="4" width="1033" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-8" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="526" width="1033" x="84" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-9" parent="tf2u9ZjNu3vSYJgPu2OB-8" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Платеж успешен]" vertex="1">
+          <mxGeometry height="20" width="1003" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-10" parent="tf2u9ZjNu3vSYJgPu2OB-8" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Платеж отклонён]" vertex="1">
+          <mxGeometry height="4" width="1033" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-11" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="895" width="1053" x="74" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-12" parent="tf2u9ZjNu3vSYJgPu2OB-11" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Онлайн-оплата]" vertex="1">
+          <mxGeometry height="20" width="1023" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-13" parent="tf2u9ZjNu3vSYJgPu2OB-11" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Банковский перевод]" vertex="1">
+          <mxGeometry height="4" width="1053" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-14" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" value="loop" vertex="1">
+          <mxGeometry height="155" width="1033" x="84" y="1734" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-15" parent="tf2u9ZjNu3vSYJgPu2OB-14" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Выполняет модули]" vertex="1">
+          <mxGeometry height="20" width="993" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-16" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" value="alt" vertex="1">
+          <mxGeometry height="532" width="1033" x="84" y="1983" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-17" parent="tf2u9ZjNu3vSYJgPu2OB-16" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Результаты удовлетворительные]" vertex="1">
+          <mxGeometry height="20" width="1003" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-18" parent="tf2u9ZjNu3vSYJgPu2OB-16" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Результаты неудовлетворительные]" vertex="1">
+          <mxGeometry height="4" width="1033" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-19" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Выбрать курс">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-20" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="curved=1;endArrow=block;rounded=0;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Проверить доступность курса">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="183" />
+              <mxPoint x="644" y="213" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-21" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Добавить пользователя в участники">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-22" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Подтверждение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="861" y="368" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-23" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Вы записаны на курс&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-24" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Курс недоступен&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-25" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Выбрать другой курс">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="577" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-26" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="curved=1;endArrow=block;rounded=0;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Повторная проверка">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="631" />
+              <mxPoint x="644" y="661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-27" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Выбрать способ оплаты&#xa;(онлайн / банковский перевод)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-28" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-3" value="Запросить оплату (асинхронный)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-29" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Результат платежа">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-30" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Активировать доступ к курсу">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="1011" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-31" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Подтверждение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="861" y="1065" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-32" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Доступ к курсу открыт&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="1119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-33" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Оплата не прошла. Повторите попытку&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-34" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Повторная оплата">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="1274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-35" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-3" value="Повторный запрос">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="758" y="1328" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-36" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Новый результат">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="1382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-37" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Активировать доступ (если успех)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="1436" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-38" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Отправьте платёж по реквизитам&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="1547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-39" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Активировать доступ (после ручного подтверждения)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-40" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Начать обучение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="1714" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-41" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Отправить ответы на задания/тесты">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="1815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-42" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Сохранить прогресс">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="1869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-43" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="curved=1;endArrow=block;rounded=0;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Проверить завершение всех модулей&#xa;и результаты тестов">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="1933" />
+              <mxPoint x="644" y="1963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-44" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Выдать сертификат (записать статус &quot;успешно&quot;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="2064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-45" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Подтверждение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="861" y="2118" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-46" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Поздравляем! Вы получили сертификат&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="2172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-47" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="&quot;Попробуйте пересдать тесты&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="2273" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-48" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Пересдать тесты">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="2327" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-49" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Обновить результаты">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="2381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-50" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="curved=1;endArrow=block;rounded=0;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Повторная проверка">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="644" y="2435" />
+              <mxPoint x="644" y="2465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-51" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Запросить сертификат">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="2559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-52" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-4" value="Получить данные сертификата">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="2613" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-53" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-2" value="Данные сертификата">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="861" y="2667" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-54" edge="1" parent="1" source="tf2u9ZjNu3vSYJgPu2OB-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="tf2u9ZjNu3vSYJgPu2OB-1" value="Отправить PDF-сертификат (асинхронно)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="2721" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tf2u9ZjNu3vSYJgPu2OB-55" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Ожидание подтверждения&#xa;от бухгалтерии (вне системы)" vertex="1">
+          <mxGeometry height="49" width="448" x="120" y="1567" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
